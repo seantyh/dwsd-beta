@@ -24,7 +24,7 @@ from .dwsd_preproc import (
 )
 
 class DottedWsdTagger:
-    def __init__(self, use_cuda=True, cwn_image_ver="v.2020.05"):
+    def __init__(self, use_cuda=True, cwn_image_ver="v.2022.08.01"):
         self.device = "cuda" if (torch.cuda.is_available() and use_cuda) \
                       else "cpu"
 
